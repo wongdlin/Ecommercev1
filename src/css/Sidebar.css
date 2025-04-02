@@ -1,0 +1,110 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+  transform: translateX(-250px);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.toggle-btn {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.adminTable {
+  width: 100%;
+  border: 1px white;
+  border-collapse: collapse;
+}
+
+.adminTable th,
+td {
+  padding: 10px;
+}
+
+.adminTable img {
+  max-height: 10vh;
+}
+
+.active-button {
+  background-color: green;
+}
+
+.inactive-button {
+  background-color: red;
+  border: none;
+}
+
+.active {
+  color: green;
+  font-weight: 600;
+}
+
+.inactive {
+  color: red;
+  font-weight: 600;
+}
+
+.form-container {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.dashboard-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  background-color: #333;
+}
+
+.chart-container{
+  margin:50px
+}
